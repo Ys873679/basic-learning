@@ -1,0 +1,23 @@
+.row1{
+    border: 5px solid;
+    border-color: blue;
+    
+    
+
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    
+
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.blue-row{
+    color: blue;
+}

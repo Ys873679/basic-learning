@@ -1,15 +1,44 @@
 import './ExploreContainer.css';
 
-interface ContainerProps { }
 
-const ExploreContainer: React.FC<ContainerProps> = () => {
+
+const ExploreContainer: React.FC = () => {
   return (
-    <div id="container">
-      <strong>Ready to create an app?</strong>
-      <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <>
     
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione doloribus suscipit quam temporibus possimus aliquid autem repudiandae architecto accusantium. Nesciunt!</h1>
+    <div className='navbar'>
+      <div className='nav-logo border'>
+        <div className='logo'></div>
+      </div>
+      <div className='nav-address border'>
+        <p className='add-first'>deliver to</p>
+        <div className='add-icon'>
+           <i className="fa-solid fa-location-dot"></i>
+           <p className='add-second'>india</p>
+        </div>
+        <div className='nav-search'>
+          <select className='nav-select'>
+            <option>ALL</option>
+          </select>
+          <input placeholder='amazon search' className='search'></input>
+          <div className='search-icon'>
+             <i className="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      <div className='signin border'>
+        <p className='add-signin'>hello,signin</p>
+        <p className='add-account'> account & list</p>
+      </div>
+      <div className='add-cart'>
+        
+      </div>
+      </div>
     </div>
+    
+    
+        
+    
+    </>
   );
 };
 
